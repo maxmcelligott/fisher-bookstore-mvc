@@ -36,5 +36,22 @@ namespace Fisher.Bookstore.Controllers
         {
             return Content("New");
         }
+
+        public IActionResult best()
+        {
+            return Content("Best");
+        }
         
-}}
+    }
+        public class AuthorsController : Controller
+         {  
+         public IActionResult Index()
+        {
+            return Content("Index");
+        }
+        public IActionResult Featured()
+        {
+            return Content("Featured");
+        }
+        }
+}
