@@ -25,4 +25,16 @@ namespace Fisher.Bookstore.Controllers
             return Content("This is location");
         }
     }
-}
+
+     public class BooksController : Controller
+    {  
+         public IActionResult Index()
+        {
+            return Content("Index");
+        }
+        public IActionResult New()
+        {
+            return Content("New");
+        }
+        
+}}
